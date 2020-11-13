@@ -1,1 +1,105 @@
-/** CSS STYLE **/
+body{
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 1.6em;
+
+    color: #2a2626;
+    background: #fff;
+}
+
+a{
+    color: #1085c5;
+}
+
+button{
+    background-color:#fe8a02;
+}
+
+
+
+h1,h2,h3{
+    font-family: "Neucha";
+    line-height: 1.2em;
+}
+h1{
+    font-size: 72px;
+}
+h2{
+    font-size: 60px;
+}
+h3{
+font-size: 34px;
+}
+
+section{
+    max-width: 1110px;
+
+    text-align: center;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.breadcrumbs{
+    color:#908d8b;
+}
+
+.main-header {
+    background-color: #f5f4f0;
+}
+.main-navigation{
+    background-color: #42413c;
+}
+
+.main-navigation .menu a{
+background-color: #f5f4f0;
+}
+
+.main-navigation .menu a:hover{
+    background-color: #fe8a02;
+}
+
+.effect{
+    background-color: #f5f4f0;
+}
+.effect .subtitle{
+    background-color: #b09a81;
+}
+
+.optimization{
+    background-color: #b09a81;
+}
+.optimization .breadcrumbs{
+    color: #d7ccc0;
+}
+.optimization .subtitle{
+    background-color: #fff;
+}
+
+.distortion{
+    background-color: #f5f4f0;
+}
+.distortion .subtitle{
+    background-color: #b09a81;
+}
+
+.depreciation{
+    background-color: #b09a81;
+}
+.depreciation .breadcrumbs{
+    color: #d7ccc0;
+}
+.depreciation .subtitle{
+    background-color: #fff;
+}
+
+.planning{
+    background-color: #f5f4f0;
+}
+.planning .subtitle{
+    background-color: #b09a81;
+}
+
+.subtitle{
+    background-color: #b09a81;
+}
