@@ -4,17 +4,8 @@ body{
     line-height: 1.6em;
 
     color: #2a2626;
-    background: #fff;
+    background: #2a2626 rgba(0,0,0,0);
 }
-
-a{
-    color: #1085c5;
-}
-
-button{
-    background-color:#fe8a02;
-}
-
 
 
 h1,h2,h3{
@@ -32,74 +23,46 @@ font-size: 34px;
 }
 
 section{
-    max-width: 1110px;
+    margin: auto;
 
-    text-align: center;
+    max-width: 1110px;
 
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
-.breadcrumbs{
-    color:#908d8b;
-}
-
-.main-header {
+.main-light{
     background-color: #f5f4f0;
 }
-.main-navigation{
-    background-color: #42413c;
+
+.main-brown{
+    background-color: #b09a81;
 }
 
-.main-navigation .menu a{
-background-color: #f5f4f0;
+.orange{
+    color: #fe8a02;
 }
 
-.main-navigation .menu a:hover{
+.button-orange{
     background-color: #fe8a02;
 }
 
-.effect{
-    background-color: #f5f4f0;
-}
-.effect .subtitle{
-    background-color: #b09a81;
+.basic-dark{
+    background-color: #42413c;
 }
 
-.optimization{
-    background-color: #b09a81;
-}
-.optimization .breadcrumbs{
-    color: #d7ccc0;
-}
-.optimization .subtitle{
-    background-color: #fff;
+.breadcrumbs-white05{
+color: #d7ccc0;
 }
 
-.distortion{
-    background-color: #f5f4f0;
-}
-.distortion .subtitle{
-    background-color: #b09a81;
+.breadcrumbs-dark05{
+    color: #908d8b;
 }
 
-.depreciation{
-    background-color: #b09a81;
-}
-.depreciation .breadcrumbs{
-    color: #d7ccc0;
-}
-.depreciation .subtitle{
-    background-color: #fff;
+.column-white{
+    color: #fff;
 }
 
-.planning{
-    background-color: #f5f4f0;
-}
-.planning .subtitle{
-    background-color: #b09a81;
-}
-
-.subtitle{
-    background-color: #b09a81;
+.blue{
+    color: #1085c5;
 }
