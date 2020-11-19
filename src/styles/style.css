@@ -1,3 +1,4 @@
+
 body{
     font-family: "Open Sans";
     font-size: 16px;
@@ -5,6 +6,8 @@ body{
 
     color: #2a2626;
     background: #2a2626 rgba(0,0,0,0);
+
+    margin: auto;
 }
 
 
@@ -22,17 +25,75 @@ h3{
 font-size: 34px;
 }
 
-section{
-    margin: auto;
-
+.content{
     max-width: 1110px;
 
     margin-top: 100px;
     margin-bottom: 100px;
+    
+    display: flex;
+    flex-direction: column;
+    align-self: center;
 }
 
 .main-light{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     background-color: #f5f4f0;
+
+}
+
+.questions::before{
+    content:'';
+    position:absolute;
+
+    background-image: url("../../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    opacity: 0.1;
+
+    width:100%;
+    height:100%;
+}
+
+.logo-name {
+    
+    min-height:400px;
+}
+
+.logo-name h1 {
+    font-weight: 400;
+
+    z-index: 2;
+}
+
+.logo-name img{
+    position: absolute;
+
+    right: -270px;
+    top: 55px;
+
+    height: 525px;
+    
+}
+
+.name{
+    position: relative;
+}
+
+.columns{
+    display: flex;
+
+    margin:30px;
+}
+
+.column{
+    margin: 15px;
+
+    font-size: 14px;
 }
 
 .main-brown{
@@ -44,11 +105,127 @@ section{
 }
 
 .button-orange{
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    color: #fff;
+
+    font-weight: bold;
+
+    border: none;
+
     background-color: #fe8a02;
 }
 
 .basic-dark{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-left: 165px;
+
+    height: 196px;
+
     background-color: #42413c;
+}
+
+.subscription-main-white{
+    display: flex;
+    flex-direction: column;
+
+    text-align: left;
+
+    margin: 20px;
+}
+
+.h2{
+    color: #fff;
+
+    font-weight: normal
+}
+
+.subscription-form{
+    width: 500px;
+}
+
+.mail-form{
+    margin-top: 45px;
+}
+
+.subscription-mail input{
+    border: none;
+
+    padding: 0;
+    width: 394px;
+    height: 50px;
+}
+
+input::placeholder{  
+    font-size: 18px;
+    text-align: left;
+    font-weight: normal;
+
+    opacity: 0.2;
+
+    margin: 13px;
+    padding-left: 15px;
+}
+
+.mail-form label{
+    font-size: 17px;
+    font-weight: normal;
+
+    width: 394px;
+    height: 50px;
+
+    color: #fff;
+}
+
+.subscription-mail .button-orange{
+    padding-bottom: 20px;
+    padding-top: 18px;
+    margin-left: -4px;
+
+    height: 50px;
+    width: 70px;
+}
+
+.subscription-mail .button-orange::before{
+    content:'';
+    position: absolute;
+
+    background-image: url("../../images/send.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 20px;
+    height: 20px;
+
+    transform: translate(-12px, -8px) rotate(-10deg);
+}
+
+.regulations{
+    margin-top: 5px;
+    font-weight: normal;
+
+    color: #fff;
+
+    font-size: 12px;
+}
+
+.regulations a{
+    color: #fff;
+}
+
+.copyright{
+    margin-left: 165px;
+
+    margin-top: 60px;
+    font-size: 14px;
+
+    text-align: center;
 }
 
 .breadcrumbs-white05{
