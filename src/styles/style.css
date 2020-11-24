@@ -111,27 +111,37 @@ footer {
     padding-top: 38px;
 }
 
-.about{
+.about h2{
     text-align: center;
 
     font-weight: normal;
-    
+
     line-height: 110%;
 
     margin-bottom: 30px;
+    margin-top: -54px;
 }
 
 .about p{
+    text-align: center;
+
     font-weight: normal;
 
+    height: 26px;
+    line-height: 160%;
+
     font-size: 16px;
+
+    margin-top: 0;
+    margin-bottom: 35px;
 }
 
 .video{
     display: flex;
     justify-content: center;
+    align-self: center;
 
-    margin-bottom: -100px;
+    margin-bottom: -200px;
 
     filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
