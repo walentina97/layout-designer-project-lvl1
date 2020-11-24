@@ -21,7 +21,7 @@ h2{
     font-size: 60px;
 }
 h3{
-font-size: 34px;
+    font-size: 34px;
 }
 
 footer {
@@ -32,6 +32,8 @@ footer {
 }
 
 .content{
+    position: relative;
+
     max-width: 1110px;
 
     padding-top: 100px;
@@ -43,8 +45,6 @@ footer {
 }
 
 .main-light{
-    position: relative;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -68,43 +68,37 @@ footer {
     height:100%;
 }
 
-.logo-name {
-    
+.logo-name {    
     min-height:400px;
+
+    z-index: 2;
 }
 
 .logo-name h1 {
     left: 30px;
 
     font-weight: 400;
-
-    z-index: 2;
 }
 
-.logo-name img{
+
+.image-wrapper img{
     position: absolute;
 
     right: -270px;
     top: 55px;
 
     height: 525px;
-    
-}
-
-.name{
-    position: relative;
 }
 
 .columns{
     display: flex;
-    flex-grow: 1;
-    flex-shrink: unset;
 }
 
 .column{
-    width: 540px;
+   display: flex;
+   flex-wrap: wrap;
 
-    padding: 30px;
+    padding: 15px;
 
     font-size: 16px;
 }
