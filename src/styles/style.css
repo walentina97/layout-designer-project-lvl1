@@ -38,6 +38,7 @@ footer {
 
     padding-top: 100px;
     padding-bottom: 100px;
+    margin: auto;
 
     display: flex;
     flex-direction: column;
@@ -110,7 +111,30 @@ footer {
     padding-top: 38px;
 }
 
+.about{
+    text-align: center;
 
+    font-weight: normal;
+    
+    line-height: 110%;
+
+    margin-bottom: 30px;
+}
+
+.about p{
+    font-weight: normal;
+
+    font-size: 16px;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: -100px;
+
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
 
 .main-brown{
     background-color: #b09a81;
