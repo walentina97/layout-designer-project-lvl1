@@ -150,8 +150,35 @@ footer {
     display: flex;
     flex-direction: row;
 
-    margin: 0;
+    margin-top: 100px;
+
+    flex-wrap:wrap;
 }
+.menu li {
+    flex: 0 0 33.3333%;
+    width: 350px;
+    height: 310px;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.menu h2{
+    font-size: 52px;
+    font-weight: normal;
+}
+
+.menu h3{
+    font-weight: normal;
+    padding: 24px;
+    margin-bottom: 0;
+}
+
+.menu p{
+    font-size: 16px;
+    margin-top: 4px;
+    padding-left: 24px;
+}
+
 
 .main-brown{
     background-color: #b09a81;
@@ -184,14 +211,16 @@ footer {
 }
 
 .basic-dark{
+    background-color: #42413c;
+}
+.subscription {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
+        
     min-width: 1110px;
     height: 196px;
-
-    background-color: #42413c;
 }
 
 .subscription-main-white{
