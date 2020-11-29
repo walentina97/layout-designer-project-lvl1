@@ -45,14 +45,17 @@ footer {
     align-self: center;
 }
 
-.main-light{
+.main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
+    overflow-x: hidden;
+}
+
+.main-light{
     background-color: #f5f4f0;
 
-    overflow-x: hidden;
 }
 
 .questions::before{
@@ -151,32 +154,77 @@ footer {
     flex-direction: row;
 
     margin-top: 100px;
+    margin-bottom: 0;
+    padding-left: 0;
 
     flex-wrap:wrap;
 }
 .menu li {
-    flex: 0 0 33.3333%;
-    width: 350px;
-    height: 310px;
-    margin: 0;
-    flex-grow: 1;
+    list-style-type: none;
+
+    flex: 1 1 30.33%;
+
+    margin-top: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+
+    padding-top: 24px;
+}
+
+.menu li.main-light:hover{
+    background-color: #fe8a02;
+}
+
+
+.menu li.main-light:hover span{
+    color: #fff;
+}
+
+.menu li.main-light:hover p{
+    color: #fff;
+}
+
+.menu a{
+    text-decoration: none;
 }
 
 .menu h2{
     font-size: 52px;
     font-weight: normal;
+
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .menu h3{
     font-weight: normal;
+
     padding: 24px;
+
     margin-bottom: 0;
+    margin-top: 0;
+}
+
+.priority {
+    font-family: "Neucha";
+    font-size: 64px;
+    line-height: 1em;
+
+    margin-top: 40px;
+    padding-left: 24px;
+
+    color: #2a2626;
+
 }
 
 .menu p{
     font-size: 16px;
+
     margin-top: 4px;
     padding-left: 24px;
+
+    color: #2a2626;
 }
 
 
