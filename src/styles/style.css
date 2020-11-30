@@ -246,6 +246,15 @@ footer {
 }
 
 
+.qwertys{
+    display: flex;
+    gap: 0 31px;
+}
+
+.qwerty img{
+    position: relative;
+}
+
 .breadcrumbs{
     font-style: normal;
     font-weight: normal;
@@ -266,8 +275,7 @@ footer {
     line-height: 110%;
 
     margin-top: 0;
-    margin-bottom: 350px;
-
+    
     height: 66px;
 }
 
@@ -277,16 +285,7 @@ footer {
     height: 405px; 
 }
 
-/*.column .caption-2{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 34px;
 
-    line-height: 120%;
-
-    margin-top: -324px;
-    margin-bottom: 0;
-}*/
 
 .brown{
     font-weight: bold;
