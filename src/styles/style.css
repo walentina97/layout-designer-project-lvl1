@@ -211,6 +211,10 @@ footer {
     color: #fff;
 }
 
+.menu span{
+    display: block;
+}
+
 .menu h3{
     font-weight: normal;
 
@@ -225,7 +229,6 @@ footer {
     font-size: 64px;
     line-height: 1em;
 
-    margin-top: 40px;
     padding-left: 24px;
 
     color: #2a2626;
@@ -274,7 +277,7 @@ footer {
     height: 405px; 
 }
 
-.column .caption-2{
+/*.column .caption-2{
     font-style: normal;
     font-weight: normal;
     font-size: 34px;
@@ -283,7 +286,7 @@ footer {
 
     margin-top: -324px;
     margin-bottom: 0;
-}
+}*/
 
 .brown{
     font-weight: bold;
