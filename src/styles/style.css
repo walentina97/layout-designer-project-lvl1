@@ -98,8 +98,12 @@ footer {
 
     font-size: 16px;
 }
+
+
 .column img {
     width:100%;
+
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .link{
@@ -261,15 +265,18 @@ footer {
 }
 
 .caption-2{
+    font-family: "neucha";
+
+    font-size: 34px;
     font-weight: normal;
     font-style: normal;
 
     line-height: 120%;
+
+    margin: 0;
 }
 
 .content-delimeter{
-    font-weight: bold;
-
     margin-top: 100px;
     margin-bottom: 20px;
 
@@ -278,6 +285,15 @@ footer {
     padding-bottom: 4px;
 
     color: #fff;
+}
+
+.content-delimeter h3{
+    font-family: "Open Sans";
+    font-stretch: normal;
+    font-size: 14px;
+    font-weight: bold;
+
+    line-height: 160%;
 }
 
 .main-brown{
