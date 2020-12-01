@@ -72,18 +72,13 @@ footer {
     height:100%;
 }
 
-.logo-name {    
+.logo-name {   
+    font-weight: normal;
+    
     min-height:400px;
 
     z-index: 2;
 }
-
-.logo-name h1 {
-    left: 30px;
-
-    font-weight: 400;
-}
-
 
 .image-wrapper img{
     position: absolute;
@@ -96,15 +91,16 @@ footer {
 
 .columns{
     display: flex;
+    gap: 0 30px;
 }
 
 .column{
-   display: flex;
-   flex-wrap: wrap;
-
-    padding: 15px;
+    width: 540px;
 
     font-size: 16px;
+}
+.column img {
+    width:100%;
 }
 
 .link{
@@ -159,10 +155,7 @@ footer {
 
     flex-wrap:wrap;
 
-    margin-left: -15px;
-    margin-right: -15px;
-
-    gap: 20px 0;
+    gap: 20px 30px;
 }
 .menu li {
     list-style-type: none;
@@ -170,8 +163,7 @@ footer {
     flex: 1 1 30.33%;
 
     margin-top: 0;
-    margin-left: 15px;
-    margin-right: 15px;
+   
 }
 
 .menu .main-light{
@@ -245,16 +237,6 @@ footer {
     color: #2a2626;
 }
 
-
-.qwertys{
-    display: flex;
-    gap: 0 31px;
-}
-
-.qwerty img{
-    position: relative;
-}
-
 .breadcrumbs{
     font-style: normal;
     font-weight: normal;
@@ -275,19 +257,18 @@ footer {
     line-height: 110%;
 
     margin-top: 0;
-    
+
     height: 66px;
 }
 
-.image-white{
-    top: 55px;
+.caption-2{
+    font-weight: normal;
+    font-style: normal;
 
-    height: 405px; 
+    line-height: 120%;
 }
 
-
-
-.brown{
+.content-delimeter{
     font-weight: bold;
 
     margin-top: 100px;
