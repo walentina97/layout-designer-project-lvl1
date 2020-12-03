@@ -17,9 +17,7 @@ h3 {
 h1 {
   font-size: 72px;
 }
-h2 {
-  font-size: 60px;
-}
+
 h3 {
   font-size: 34px;
 }
@@ -39,17 +37,13 @@ footer {
   padding-top: 100px;
   padding-bottom: 100px;
   margin: auto;
+}
 
-  display: flex;
-  flex-direction: column;
-  align-self: center;
+.f-size {
+  font-size: 60px;
 }
 
 .main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
   overflow-x: hidden;
 }
 
@@ -72,6 +66,8 @@ footer {
 }
 
 .logo-name {
+  position: relative;
+
   font-weight: normal;
 
   min-height: 400px;
@@ -94,7 +90,7 @@ footer {
 }
 
 .column {
-  width: 540px;
+  flex: 1 0 0;
 
   font-size: 16px;
 }
@@ -113,7 +109,7 @@ footer {
   margin-bottom: 0;
 }
 
-.column .breadcrumbs {
+.column .header-level-4 {
   font-family: "Neucha";
   font-style: normal;
   font-weight: normal;
@@ -121,11 +117,7 @@ footer {
 
   line-height: 120%;
 
-  margin-top: 0;
-
   margin: 0;
-
-  height: 29px;
 }
 
 .link {
@@ -166,6 +158,8 @@ footer {
   align-self: center;
 
   margin-bottom: -200px;
+  margin-left: auto;
+  margin-right: auto;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
@@ -292,14 +286,11 @@ footer {
   color: #fff;
 }
 
-.content-delimeter h3 {
+.action {
   font-family: "Open Sans";
   font-stretch: normal;
   font-size: 14px;
   font-weight: bold;
-
-  margin-top: 0px;
-  margin-bottom: 0px;
 
   line-height: 160%;
 }
@@ -446,11 +437,11 @@ input::placeholder {
   text-align: center;
 }
 
-.breadcrumbs-white05 {
+.header-level-4-white05 {
   color: #d7ccc0;
 }
 
-.breadcrumbs-dark05 {
+.header-level-4-dark05 {
   color: #908d8b;
 }
 
