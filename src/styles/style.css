@@ -343,10 +343,11 @@ footer {
 .subscription-main-white {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 
-  text-align: left;
-
-  margin: 20px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  padding-left: 52px;
 }
 
 .h2 {
@@ -356,7 +357,11 @@ footer {
 }
 
 .subscription-form {
-  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  padding-right: 75px;
 }
 
 .mail-form {
@@ -369,6 +374,8 @@ footer {
   padding: 0;
   width: 394px;
   height: 50px;
+
+  margin-top: 8px;
 }
 
 input::placeholder {
@@ -378,13 +385,12 @@ input::placeholder {
 
   opacity: 0.2;
 
-  margin: 13px;
-  padding-left: 15px;
+  padding: 15px;
 }
 
 .mail-form label {
-  font-size: 17px;
-  font-weight: normal;
+  font-size: 18px;
+  font-weight: bold;
 
   width: 394px;
   height: 50px;
