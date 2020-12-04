@@ -109,7 +109,7 @@ footer {
   margin-bottom: 0;
 }
 
-.column .header-level-4 {
+.header-level-4 {
   font-family: "Neucha";
   font-style: normal;
   font-weight: normal;
@@ -154,8 +154,6 @@ footer {
 
 .video {
   display: flex;
-  justify-content: center;
-  align-self: center;
 
   margin-bottom: -200px;
   margin-left: auto;
