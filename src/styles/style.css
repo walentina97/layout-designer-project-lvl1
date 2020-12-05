@@ -44,6 +44,8 @@ footer {
 }
 
 .main {
+  position: relative;
+
   overflow-x: hidden;
 }
 
@@ -357,10 +359,6 @@ footer {
 }
 
 .subscription-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-
   padding-right: 75px;
 }
 
@@ -368,12 +366,17 @@ footer {
   margin-top: 45px;
 }
 
+.subscription-mail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .subscription-mail input {
   border: none;
 
-  padding: 0;
+  padding: 15px;
   width: 394px;
-  height: 50px;
 
   margin-top: 8px;
 }
@@ -401,7 +404,7 @@ input::placeholder {
 .subscription-mail .button-orange {
   padding-bottom: 20px;
   padding-top: 18px;
-  margin-left: -4px;
+  margin-top: 8px;
 
   height: 50px;
   width: 70px;
