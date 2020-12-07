@@ -346,9 +346,12 @@ footer {
 }
 
 .h2 {
-  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
 
   font-weight: normal;
+
+  color: #fff;
 }
 
 .subscription-form {
