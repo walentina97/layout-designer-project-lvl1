@@ -129,7 +129,7 @@ footer {
   padding-top: 38px;
 }
 
-.about h2 {
+.about {
   text-align: center;
 
   font-weight: normal;
@@ -140,7 +140,7 @@ footer {
   margin-top: 0;
 }
 
-.about p {
+.text-card1 {
   text-align: center;
 
   font-weight: normal;
@@ -210,7 +210,7 @@ footer {
   text-decoration: none;
 }
 
-.menu h2 {
+.caption {
   font-size: 52px;
   font-weight: normal;
 
@@ -339,13 +339,10 @@ footer {
   justify-content: space-between;
 
   min-width: 1110px;
-  height: 196px;
 }
 
 .subscription-main-white {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  flex: 1 0 0;
 
   padding-top: 55px;
   padding-bottom: 55px;
@@ -359,6 +356,11 @@ footer {
 }
 
 .subscription-form {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  justify-content: center;
+
   padding-right: 75px;
 }
 
@@ -368,8 +370,6 @@ footer {
 
 .subscription-mail {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 .subscription-mail input {
