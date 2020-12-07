@@ -129,12 +129,8 @@ footer {
   padding-top: 38px;
 }
 
-.about {
+.about.caption1 {
   text-align: center;
-
-  font-weight: normal;
-
-  line-height: 110%;
 
   margin-bottom: 30px;
   margin-top: 0;
@@ -210,9 +206,14 @@ footer {
   text-decoration: none;
 }
 
-.caption {
-  font-size: 52px;
+.caption1 {
   font-weight: normal;
+  font-style: normal;
+  line-height: 110%;
+}
+
+.caption.caption1 {
+  font-size: 52px;
 
   margin-top: 0;
   margin-bottom: 0;
@@ -253,12 +254,7 @@ footer {
   color: #2a2626;
 }
 
-.theme {
-  font-style: normal;
-  font-weight: normal;
-
-  line-height: 110%;
-
+.theme.caption1 {
   margin-top: 8px;
   margin-bottom: 24px;
 }
@@ -375,7 +371,6 @@ footer {
 .subscription-mail input {
   border: none;
 
-  padding: 15px;
   width: 394px;
 
   margin-top: 8px;
