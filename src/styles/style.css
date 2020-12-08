@@ -49,15 +49,11 @@ footer {
   overflow-x: hidden;
 }
 
-.main-light {
-  background-color: #f5f4f0;
-}
-
 .questions::before {
   content: "";
   position: absolute;
 
-  background-image: url("../../images/background.png");
+  background-image: url("images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -77,7 +73,7 @@ footer {
   z-index: 2;
 }
 
-.image-wrapper img {
+.image-wrapper {
   position: absolute;
 
   right: -270px;
@@ -97,17 +93,17 @@ footer {
   font-size: 16px;
 }
 
-.column img {
+.picture {
   width: 100%;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
-.column .margin-tp-0 {
+.margin-tp-0 {
   margin-top: 0;
 }
 
-.column .margin-btm-0 {
+.margin-btm-0 {
   margin-bottom: 0;
 }
 
@@ -136,7 +132,7 @@ footer {
   margin-top: 0;
 }
 
-.text-card1 {
+.text-card-1 {
   text-align: center;
 
   font-weight: normal;
@@ -157,6 +153,8 @@ footer {
   margin-left: auto;
   margin-right: auto;
 
+  border: none;
+
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
@@ -172,7 +170,7 @@ footer {
 
   gap: 20px 30px;
 }
-.menu li {
+.card {
   list-style-type: none;
 
   flex: 1 1 30.33%;
@@ -180,25 +178,27 @@ footer {
   margin-top: 0;
 }
 
-.menu .main-light {
-  display: block;
-
+.padding-tp-24 {
   padding-top: 24px;
 }
 
-.menu li.main-light:hover {
+.card-1:hover {
   background-color: #fe8a02;
 }
 
-.menu li.main-light:hover span {
+.card-1:hover .priority {
   color: #fff;
 }
 
-.menu li.main-light:hover p {
+.card-1:hover .orange-text {
   color: #fff;
 }
 
-.menu a {
+.card-1:hover .text-card {
+  color: #fff;
+}
+
+.link-card {
   display: block;
 
   height: 100%;
@@ -206,7 +206,7 @@ footer {
   text-decoration: none;
 }
 
-.caption1 {
+.caption-1 {
   font-weight: normal;
   font-style: normal;
   line-height: 110%;
@@ -216,42 +216,24 @@ footer {
   font-size: 52px;
 
   margin-top: 0;
-  margin-bottom: 0;
-
-  color: #fff;
-}
-
-.menu span {
-  display: block;
-}
-
-.menu h3 {
-  font-weight: normal;
-
-  padding: 24px;
-
-  margin-bottom: 0;
-  margin-top: 0;
 }
 
 .priority {
+  display: block;
+
   font-family: "Neucha";
   font-size: 64px;
   line-height: 1em;
 
   padding-left: 24px;
-
-  color: #2a2626;
 }
 
-.menu p {
+.text-card {
   font-size: 16px;
 
   margin-top: 4px;
   padding-left: 24px;
   padding-right: 24px;
-
-  color: #2a2626;
 }
 
 .theme {
@@ -268,7 +250,14 @@ footer {
 
   line-height: 120%;
 
-  margin: 0;
+  padding: 0;
+
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.padding-lft-24 {
+  padding-left: 24px;
 }
 
 .content-delimeter {
@@ -278,8 +267,6 @@ footer {
   padding-left: 8px;
   padding-top: 4px;
   padding-bottom: 4px;
-
-  color: #fff;
 }
 
 .action {
@@ -291,15 +278,7 @@ footer {
   line-height: 160%;
 }
 
-.main-brown {
-  background-color: #b09a81;
-}
-
-.orange {
-  color: #fe8a02;
-}
-
-.button-orange {
+.button-link {
   width: 149px;
   height: 50px;
 
@@ -311,22 +290,10 @@ footer {
   text-decoration: none;
   text-align: center;
 
-  color: #fff;
-
   font-weight: bold;
   font-size: 16px;
 
   border: none;
-
-  background-color: #fe8a02;
-}
-
-.basic-dark {
-  background-color: #42413c;
-}
-
-.dark {
-  color: #42413c;
 }
 
 .subscription {
@@ -343,15 +310,6 @@ footer {
   padding-top: 55px;
   padding-bottom: 55px;
   padding-left: 52px;
-}
-
-.h2 {
-  margin-top: 0;
-  margin-bottom: 0;
-
-  font-weight: normal;
-
-  color: #fff;
 }
 
 .subscription-form {
@@ -371,7 +329,7 @@ footer {
   display: flex;
 }
 
-.subscription-mail input {
+.postal-form {
   border: none;
 
   width: 394px;
@@ -381,7 +339,7 @@ footer {
   padding: 15px;
 }
 
-input::placeholder {
+.postal-form::placeholder {
   font-size: 18px;
   text-align: left;
   font-weight: normal;
@@ -389,17 +347,15 @@ input::placeholder {
   opacity: 0.2;
 }
 
-.mail-form label {
+.subtitle {
   font-size: 18px;
   font-weight: bold;
 
   width: 394px;
   height: 50px;
-
-  color: #fff;
 }
 
-.subscription-mail .button-orange {
+.button {
   padding-bottom: 20px;
   padding-top: 18px;
   margin-top: 8px;
@@ -408,11 +364,11 @@ input::placeholder {
   width: 70px;
 }
 
-.subscription-mail .button-orange::before {
+.button::before {
   content: "";
   position: absolute;
 
-  background-image: url("../../images/send.svg");
+  background-image: url("../images/send.svg");
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -426,13 +382,7 @@ input::placeholder {
   margin-top: 5px;
   font-weight: normal;
 
-  color: #fff;
-
   font-size: 12px;
-}
-
-.regulations a {
-  color: #fff;
 }
 
 .copyright {
@@ -442,11 +392,39 @@ input::placeholder {
   text-align: center;
 }
 
-.white05 {
+.main-light {
+  background-color: #f5f4f0;
+}
+
+.basic-dark {
+  background-color: #42413c;
+}
+
+.dark {
+  color: #42413c;
+}
+
+.main-brown {
+  background-color: #b09a81;
+}
+
+.orange-text {
+  color: #fe8a02;
+}
+
+.orange {
+  background-color: #fe8a02;
+}
+
+.figures {
+  color: #2a2626;
+}
+
+.white-05 {
   color: #d7ccc0;
 }
 
-.dark05 {
+.dark-05 {
   color: #908d8b;
 }
 
