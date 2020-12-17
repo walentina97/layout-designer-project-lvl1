@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "HTML5/CSS Boilerplate with HTMLHint and StyleLint",
   "main": "",
-  "dependencies": {},
+  "dependencies": {
+    "htmllint": "^0.8.0"
+  },
   "devDependencies": {
     "htmlhint": "^0.14.1",
     "stylelint": "^13.6.1",
