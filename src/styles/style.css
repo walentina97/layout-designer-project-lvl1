@@ -39,7 +39,7 @@ h3 {
   text-align: center;
 }
 
-.f-size {
+.f-size-60 {
   font-size: 60px;
 }
 
@@ -69,7 +69,8 @@ h3 {
 
   z-index: 2;
 
-  min-height: 400px;
+  margin-top: 0;
+  margin-bottom: 220px;
 
   font-weight: normal;
 }
@@ -79,20 +80,23 @@ h3 {
 
   top: 55px;
 
-  right: -270px;
-
-  height: 525px;
+  right: -330px;
 }
 
 .columns {
   display: flex;
-  gap: 0 30px;
 }
 
 .column {
   flex: 1 0 0;
+}
 
-  font-size: 16px;
+.margin-rgt-15 {
+  margin-right: 15px;
+}
+
+.margin-lft-15 {
+  margin-left: 15px;
 }
 
 .picture {
@@ -133,16 +137,12 @@ h3 {
   margin-bottom: 30px;
 }
 
-.subheading {
+.margin-btm-35 {
   margin-bottom: 35px;
 }
 
 .video {
-  display: flex;
-
-  margin-right: auto;
   margin-bottom: -200px;
-  margin-left: auto;
 
   border: none;
 
@@ -153,8 +153,6 @@ h3 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
-  gap: 20px 30px;
 
   margin-top: 100px;
 
@@ -167,8 +165,18 @@ h3 {
   flex: 1 1 30.33%;
 
   margin-top: 0;
+  margin-right: 30px;
+  margin-bottom: 20px;
 
   list-style-type: none;
+}
+
+.card:nth-child(3n) {
+  margin-right: 0;
+}
+
+.card:nth-last-child(-n + 3) {
+  margin-bottom: 0;
 }
 
 .padding-tp-24 {
@@ -190,6 +198,8 @@ h3 {
 .priority {
   display: block;
 
+  margin-bottom: 40px;
+
   padding-left: 24px;
 
   font-size: 64px;
@@ -203,11 +213,15 @@ h3 {
   color: #fff;
 }
 
-.orange-text {
+.color-orange {
   color: #fe8a02;
 }
 
-.link-card:hover .orange-text {
+.d-block {
+  display: block;
+}
+
+.link-card:hover .color-orange {
   color: #fff;
 }
 
@@ -236,9 +250,12 @@ h3 {
   font-size: 52px;
 }
 
-.theme {
+.margin-tp-8 {
   margin-top: 8px;
-  margin-bottom: 24px;
+}
+
+.margin-btm-30 {
+  margin-bottom: 30px;
 }
 
 .caption-2 {
@@ -278,6 +295,8 @@ h3 {
   font-stretch: normal;
 
   line-height: 160%;
+
+  text-transform: uppercase;
 }
 
 .button-link {
@@ -407,42 +426,46 @@ h3 {
   text-align: center;
 }
 
-.main-light {
+.background-light {
   background-color: #f5f4f0;
 }
 
-.basic-dark {
+.background-dark {
   background-color: #42413c;
 }
 
-.dark {
+.color-dark {
   color: #42413c;
 }
 
-.main-brown {
+.background-brown {
   background-color: #b09a81;
 }
 
-.orange {
+.background-orange {
   background-color: #fe8a02;
 }
 
-.figures {
+.color-nero {
   color: #2a2626;
 }
 
-.white-05 {
+.color-brown {
+  color: #b09a81;
+}
+
+.color-white-05 {
   color: #d7ccc0;
 }
 
-.dark-05 {
+.color-dark-05 {
   color: #908d8b;
 }
 
-.column-white {
+.color-white {
   color: #fff;
 }
 
-.blue {
+.color-blue {
   color: #1085c5;
 }
