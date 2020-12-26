@@ -226,13 +226,13 @@ h3 {
 
   padding-left: 24px;
 
+  color: var(--main-color-dark);
+
   font-size: 64px;
 
   font-family: "Neucha", sans-serif;
 
   line-height: 1em;
-
-  color: var(--main-color-dark);
 }
 
 .link-card:hover .priority {
@@ -257,9 +257,9 @@ h3 {
   padding-right: 24px;
   padding-left: 24px;
 
-  font-size: 16px;
-
   color: var(--main-color-dark);
+
+  font-size: 16px;
 }
 
 .link-card:hover .text-card {
@@ -275,9 +275,9 @@ h3 {
 .caption {
   margin-top: 0;
 
-  font-size: 52px;
-
   color: var(--main-color-white);
+
+  font-size: 52px;
 }
 
 .margin-tp-8 {
@@ -319,8 +319,9 @@ h3 {
 }
 
 .background-brown {
-  background-color: var(--main-bg-color-brown);
   color: var(--main-color-white);
+
+  background-color: var(--main-bg-color-brown);
 }
 
 .color-brown {
@@ -347,16 +348,17 @@ h3 {
   padding-bottom: 12px;
   padding-left: 24px;
 
+  color: var(--main-color-white);
+
   font-weight: bold;
   font-size: 16px;
 
   text-align: center;
   text-decoration: none;
 
-  border: none;
-
   background-color: var(--main-bg-color-orange);
-  color: var(--main-color-white);
+
+  border: none;
 }
 
 .main-footer {
