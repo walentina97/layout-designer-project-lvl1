@@ -1,13 +1,13 @@
 :root {
-  --main-bg-color-light: #f5f4f0;
-  --main-bg-color-basic-dark: #42413c;
-  --main-bg-color-brown: #b09a81;
-  --main-bg-color-orange: #fe8a02;
-  --main-color-white: #fff;
-  --main-color-white-05: #d7ccc0;
-  --main-color-dark: #2a2626;
-  --main-color-dark-05: #908d8b;
-  --main-color-blue: #1085c5;
+  --light-bg-color: #f5f4f0;
+  --basic-dark-bg-color: #42413c;
+  --brown-bg-color: #b09a81;
+  --orange-bg-color: #fe8a02;
+  --white-color: #fff;
+  --white-05-color: #d7ccc0;
+  --dark-color: #2a2626;
+  --dark-05-color: #908d8b;
+  --blue-color: #1085c5;
 }
 
 body {
@@ -134,11 +134,11 @@ h3 {
 }
 
 .color-white-05 {
-  color: var(--main-color-white-05);
+  color: var(--white-05-color);
 }
 
 .color-dark-05 {
-  color: var(--main-color-dark-05);
+  color: var(--dark-05-color);
 }
 
 .link {
@@ -166,7 +166,7 @@ h3 {
 }
 
 .background-dark {
-  background-color: var(--main-bg-color-basic-dark);
+  background-color: var(--basic-dark-bg-color);
 }
 
 .menu {
@@ -192,7 +192,7 @@ h3 {
 }
 
 .background-light {
-  background-color: var(--main-bg-color-light);
+  background-color: var(--light-bg-color);
 }
 
 .card:nth-child(3n) {
@@ -226,7 +226,7 @@ h3 {
 
   padding-left: 24px;
 
-  color: var(--main-color-dark);
+  color: var(--dark-color);
 
   font-size: 64px;
 
@@ -236,11 +236,11 @@ h3 {
 }
 
 .link-card:hover .priority {
-  color: var(--main-color-white);
+  color: var(--white-color);
 }
 
 .color-orange {
-  color: var(--main-bg-color-orange);
+  color: var(--orange-bg-color);
 }
 
 .d-block {
@@ -248,7 +248,7 @@ h3 {
 }
 
 .link-card:hover .color-orange {
-  color: #fff;
+  color: var(--white-color);
 }
 
 .text-card {
@@ -257,13 +257,13 @@ h3 {
   padding-right: 24px;
   padding-left: 24px;
 
-  color: var(--main-color-dark);
+  color: var(--dark-color);
 
   font-size: 16px;
 }
 
 .link-card:hover .text-card {
-  color: var(--main-color-white);
+  color: var(--white-color);
 }
 
 .caption-1 {
@@ -275,7 +275,7 @@ h3 {
 .caption {
   margin-top: 0;
 
-  color: var(--main-color-white);
+  color: var(--white-color);
 
   font-size: 52px;
 }
@@ -319,13 +319,13 @@ h3 {
 }
 
 .background-brown {
-  color: var(--main-color-white);
+  color: var(--white-color);
 
-  background-color: var(--main-bg-color-brown);
+  background-color: var(--brown-bg-color);
 }
 
 .color-brown {
-  color: var(--main-bg-color-brown);
+  color: var(--brown-bg-color);
 }
 
 .action {
@@ -348,15 +348,16 @@ h3 {
   padding-bottom: 12px;
   padding-left: 24px;
 
-  color: var(--main-color-white);
+  color: var(--white-color);
 
   font-weight: bold;
   font-size: 16px;
 
   text-align: center;
+  text-transform: uppercase;
   text-decoration: none;
 
-  background-color: var(--main-bg-color-orange);
+  background-color: var(--orange-bg-color);
 
   border: none;
 }
@@ -386,7 +387,7 @@ h3 {
 }
 
 .color-white {
-  color: var(--main-color-white);
+  color: var(--white-color);
 }
 
 .subscription-form {
@@ -475,5 +476,5 @@ h3 {
 }
 
 .color-blue {
-  color: var(--main-color-blue);
+  color: var(--blue-color);
 }
