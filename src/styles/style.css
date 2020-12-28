@@ -55,7 +55,7 @@ h3 {
   font-size: 60px;
 }
 
-.questions {
+.background-questions {
   position: relative;
 
   overflow-x: hidden;
@@ -105,6 +105,10 @@ h3 {
 
 .margin-rgt-30 {
   margin-right: 30px;
+}
+
+.margin-rgt-30:last-child {
+  margin-right: 0;
 }
 
 .picture {
