@@ -90,9 +90,9 @@ h3 {
 .image-wrapper {
   position: absolute;
 
-  top: 40px;
+  top: 42px;
 
-  left: 285px;
+  left: 275px;
 }
 
 .columns {
@@ -146,8 +146,8 @@ h3 {
 }
 
 .link {
-  width: 149px;
-  height: 48px;
+  width: 148px;
+  height: 49px;
 
   margin-top: 40px;
 }
