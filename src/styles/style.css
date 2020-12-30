@@ -90,9 +90,9 @@ h3 {
 .image-wrapper {
   position: absolute;
 
-  top: 55px;
+  top: 40px;
 
-  right: -330px;
+  left: 280px;
 }
 
 .columns {
@@ -149,16 +149,16 @@ h3 {
   width: 149px;
   height: 48px;
 
-  padding-top: 38px;
+  margin-top: 40px;
 }
 
 .about {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 27px;
 }
 
-.margin-btm-35 {
-  margin-bottom: 35px;
+.margin-btm-30 {
+  margin-bottom: 30px;
 }
 
 .video {
@@ -288,10 +288,6 @@ h3 {
   margin-top: 8px;
 }
 
-.margin-btm-30 {
-  margin-bottom: 30px;
-}
-
 .caption-2 {
   margin-top: 0;
   margin-bottom: 0;
@@ -387,7 +383,7 @@ h3 {
 
   padding-top: 55px;
   padding-bottom: 55px;
-  padding-left: 52px;
+  padding-left: 55px;
 }
 
 .color-white {
@@ -399,11 +395,11 @@ h3 {
   flex: 1 0 0;
   flex-direction: column;
 
-  padding-right: 75px;
+  padding-right: 55px;
 }
 
 .mail-form {
-  margin-top: 45px;
+  margin-top: 38px;
 }
 
 .subscription-mail {
@@ -413,7 +409,7 @@ h3 {
 .postal-form {
   width: 394px;
 
-  margin-top: 8px;
+  margin-top: 9px;
 
   padding: 15px;
 
@@ -432,7 +428,7 @@ h3 {
   width: 394px;
   height: 50px;
 
-  font-weight: bold;
+  font-weight: normal;
 
   font-size: 18px;
 }
@@ -464,7 +460,8 @@ h3 {
 }
 
 .regulations {
-  margin-top: 5px;
+  margin-top: 0;
+  margin-bottom: 40px;
 
   font-weight: normal;
 
@@ -472,7 +469,7 @@ h3 {
 }
 
 .copyright {
-  margin-top: 60px;
+  margin-top: 76px;
 
   font-size: 14px;
 
