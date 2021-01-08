@@ -82,7 +82,7 @@ h3 {
   z-index: 2;
 
   margin-top: 0;
-  margin-bottom: 220px;
+  margin-bottom: 202px;
 
   font-weight: normal;
 }
@@ -90,9 +90,9 @@ h3 {
 .image-wrapper {
   position: absolute;
 
-  top: 42px;
+  top: 59px;
 
-  left: 280px;
+  right: -268px;
 }
 
 .columns {
@@ -149,7 +149,8 @@ h3 {
   width: 148px;
   height: 49px;
 
-  margin-top: 40px;
+  padding-top: 53px;
+  padding-left: 2px;
 }
 
 .about {
