@@ -82,7 +82,7 @@ h3 {
   z-index: 2;
 
   margin-top: 0;
-  margin-bottom: 197px;
+  margin-bottom: 200px;
 
   font-weight: normal;
 }
@@ -90,7 +90,7 @@ h3 {
 .image-wrapper {
   position: absolute;
 
-  top: 52px;
+  top: 55px;
 
   right: -268px;
 }
@@ -149,7 +149,7 @@ h3 {
   width: 148px;
   height: 49px;
 
-  padding-top: 53px;
+  padding-top: 49px;
 }
 
 .about {
@@ -341,10 +341,10 @@ h3 {
   width: 149px;
   height: 50px;
 
-  padding-top: 13px;
-  padding-right: 27px;
-  padding-bottom: 14px;
-  padding-left: 24px;
+  padding-top: 12px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+  padding-left: 26px;
 
   color: var(--white-color);
 
