@@ -400,13 +400,13 @@ h3 {
 }
 
 .mail-form {
-  margin-top: 38px;
+  margin-top: 40px;
 }
 
 .subscription-mail {
   display: flex;
 
-  margin-top: 11px;
+  margin-top: 9px;
 }
 
 .postal-form {
@@ -414,7 +414,10 @@ h3 {
 
   margin-top: 0;
 
-  padding: 15px;
+  padding-top: 17px;
+  padding-bottom: 18px;
+  padding-right: 19px;
+  padding-left: 10px;
 
   border: none;
 }
@@ -444,9 +447,9 @@ h3 {
 
   margin-top: 0;
 
-  padding-top: 15px;
+  padding-top: 14px;
   padding-bottom: 15px;
-  padding-left: 21px;
+  padding-left: 22px;
   padding-right: 21px;
 }
 
