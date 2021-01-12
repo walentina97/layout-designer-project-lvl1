@@ -258,7 +258,7 @@ h3 {
 }
 
 .text-card {
-  margin-top: 4px;
+  margin-top: 16px;
 
   padding-right: 24px;
   padding-left: 24px;
@@ -281,7 +281,7 @@ h3 {
 }
 
 .caption {
-  margin-top: 0;
+  margin-bottom: 0;
 
   color: var(--white-color);
 
@@ -419,8 +419,10 @@ h3 {
 
 .postal-form::placeholder {
   font-weight: normal;
-  font-size: 18px;
+  font-size: 13px;
   text-align: left;
+
+  line-height: 160%;
 
   opacity: 0.2;
 }
@@ -456,7 +458,7 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
 
-  transform: translate(-12px, -8px) rotate(-10deg);
+  transform: translate(-10px, -9px) rotate(-2deg);
 
   content: "";
 }
