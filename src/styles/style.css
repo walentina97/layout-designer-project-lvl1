@@ -405,12 +405,14 @@ h3 {
 
 .subscription-mail {
   display: flex;
+
+  margin-top: 11px;
 }
 
 .postal-form {
   width: 394px;
 
-  margin-top: 9px;
+  margin-top: 0;
 
   padding: 15px;
 
@@ -440,7 +442,7 @@ h3 {
   width: 62px;
   height: 50px;
 
-  margin-top: 9px;
+  margin-top: 0;
 
   padding-top: 15px;
   padding-bottom: 15px;
@@ -473,7 +475,7 @@ h3 {
 }
 
 .copyright {
-  margin-top: 76px;
+  margin-top: 78px;
 
   font-size: 14px;
 
