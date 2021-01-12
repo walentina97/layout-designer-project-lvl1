@@ -410,21 +410,23 @@ h3 {
 }
 
 .postal-form {
-  width: 423px;
+  width: 394px;
 
   margin-top: 0;
 
   padding-top: 17px;
   padding-bottom: 18px;
-  padding-right: 13px;
+  padding-right: 15px;
   padding-left: 15px;
 
   border: none;
 }
 
 .postal-form::placeholder {
+  font-family: "Open Sans";
+
   font-weight: normal;
-  font-size: 13px;
+  font-size: 13.1px;
   text-align: left;
 
   line-height: 160%;
