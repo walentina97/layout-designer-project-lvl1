@@ -449,28 +449,29 @@ h3 {
 
   padding-top: 14px;
   padding-bottom: 15px;
-  padding-left: 22px;
+  padding-left: 21px;
   padding-right: 21px;
 }
 
 .button::before {
   position: absolute;
 
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
 
   background-image: url("../images/send.svg");
   background-repeat: no-repeat;
   background-size: cover;
 
-  transform: translate(-10px, -9px) rotate(-2deg);
+  transform: translate(-12px, -12px) rotate(0deg);
 
   content: "";
 }
 
 .regulations {
+  margin-top: 0;
+  margin-bottom: 33px;
   padding-top: 6px;
-  margin-bottom: 40px;
 
   font-weight: normal;
   line-height: 120%;
