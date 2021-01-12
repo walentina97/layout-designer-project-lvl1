@@ -395,6 +395,7 @@ h3 {
   flex: 1 0 0;
   flex-direction: column;
 
+  padding-left: 122px;
   padding-right: 55px;
 }
 
@@ -434,14 +435,15 @@ h3 {
 }
 
 .button {
-  width: 70px;
+  width: 62px;
   height: 50px;
 
-  margin-top: 8px;
+  margin-top: 9px;
 
-  padding-top: 18px;
-
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 21px;
+  padding-right: 21px;
 }
 
 .button::before {
@@ -474,6 +476,8 @@ h3 {
   font-size: 14px;
 
   text-align: center;
+
+  line-height: 160%;
 }
 
 .color-blue {
