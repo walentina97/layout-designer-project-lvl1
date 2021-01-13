@@ -417,7 +417,7 @@ h3 {
 
   padding-top: 18px;
   padding-bottom: 18px;
-  padding-right: 10px;
+  padding-right: 7px;
   padding-left: 14px;
 
   border: none;
@@ -445,7 +445,7 @@ h3 {
 }
 
 .button {
-  width: 67px;
+  width: 70px;
   height: 50px;
 
   margin-top: 0;
@@ -474,7 +474,7 @@ h3 {
 .regulations {
   margin-top: 0;
   margin-bottom: 40px;
-  padding-top: 3px;
+  padding-top: 2px;
 
   font-weight: normal;
   line-height: 19.2px;
