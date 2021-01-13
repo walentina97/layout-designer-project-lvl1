@@ -417,8 +417,8 @@ h3 {
 
   padding-top: 17px;
   padding-bottom: 17px;
-  padding-right: 7px;
-  padding-left: 14px;
+  padding-right: 6px;
+  padding-left: 15px;
 
   border: none;
 }
@@ -452,8 +452,8 @@ h3 {
 
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-left: 21px;
-  padding-right: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .button::before {
@@ -492,11 +492,11 @@ h3 {
   line-height: 22.4px;
 }
 
-.margin-btm-16 {
-  margin-bottom: 16px;
+.margin-btm-18 {
+  margin-bottom: 18px;
 }
 
-.margin-tp-16 {
+.margin-tp-18 {
   margin-top: 18px;
 }
 
