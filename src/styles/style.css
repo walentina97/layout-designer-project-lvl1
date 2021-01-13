@@ -415,9 +415,9 @@ h3 {
 
   margin-top: 0;
 
-  padding-top: 17px;
+  padding-top: 18px;
   padding-bottom: 18px;
-  padding-right: 15px;
+  padding-right: 10px;
   padding-left: 14px;
 
   border: none;
@@ -445,7 +445,7 @@ h3 {
 }
 
 .button {
-  width: 62px;
+  width: 67px;
   height: 50px;
 
   margin-top: 0;
@@ -453,7 +453,7 @@ h3 {
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 21px;
-  padding-right: 21px;
+  padding-right: 14px;
 }
 
 .button::before {
@@ -490,6 +490,14 @@ h3 {
   text-align: center;
 
   line-height: 22.4px;
+}
+
+.margin-btm-16 {
+  margin-bottom: 16px;
+}
+
+.margin-tp-16 {
+  margin-top: 16px;
 }
 
 .color-blue {
