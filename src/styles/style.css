@@ -33,12 +33,13 @@ h1 {
 }
 
 h2 {
-  font-size: 60px;
-  font-weight: normal;
-
   margin: 0;
 
   color: var(--orange-bg-color);
+
+  font-weight: normal;
+
+  font-size: 60px;
 }
 
 h3 {
@@ -283,11 +284,13 @@ h3 {
 }
 
 .caption-1 {
-  font-weight: normal;
-  font-style: normal;
-  line-height: 120%;
-
   margin-top: 0;
+
+  font-weight: normal;
+
+  font-style: normal;
+
+  line-height: 120%;
 }
 
 .caption {
@@ -405,8 +408,9 @@ h3 {
   flex: 1 0 0;
   flex-direction: column;
 
-  padding-left: 122px;
   padding-right: 55px;
+
+  padding-left: 122px;
 }
 
 .mail-form {
@@ -425,21 +429,23 @@ h3 {
   margin-top: 0;
 
   padding-top: 16px;
-  padding-bottom: 18px;
   padding-right: 5px;
+
+  padding-bottom: 18px;
   padding-left: 16px;
 
   border: none;
 }
 
 .postal-form::placeholder {
-  font-family: "Open Sans";
-
   font-weight: normal;
   font-size: 13.1px;
-  text-align: left;
+
+  font-family: "Open Sans", sans-serif;
 
   line-height: 160%;
+
+  text-align: left;
 
   opacity: 0.2;
 }
@@ -460,9 +466,10 @@ h3 {
   margin-top: 0;
 
   padding-top: 15px;
+  padding-right: 20px;
+
   padding-bottom: 15px;
   padding-left: 16px;
-  padding-right: 20px;
 }
 
 .button::before {
@@ -486,9 +493,9 @@ h3 {
   padding-top: 3px;
 
   font-weight: normal;
-  line-height: 160%;
-
   font-size: 12px;
+
+  line-height: 160%;
 }
 
 .copyright {
