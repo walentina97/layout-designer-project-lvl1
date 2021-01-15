@@ -61,6 +61,10 @@ h3 {
   text-align: center;
 }
 
+.margin-btm-100 {
+  margin-bottom: -100px;
+}
+
 .background-questions {
   position: relative;
 
@@ -173,7 +177,7 @@ h3 {
 }
 
 .video {
-  margin-bottom: -191px;
+  margin-bottom: -90px;
 
   border: none;
 
